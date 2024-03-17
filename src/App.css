@@ -1,0 +1,131 @@
+.main{
+  display: flex;
+  height: 150vh;
+}
+.leftPort{
+  background-color: #DDE6ED;
+  width: 400px;
+  flex-shrink: 0;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  color: white;
+}
+.rightPort{
+  background-color: #526D82;
+  width: 100%;
+  flex-grow: 1;
+  padding: 5rem;
+  color: #9DB2BF;
+}
+.titlePort{
+  margin-top: 10px;
+  font-size: 1rem;
+  padding: 3px;
+}
+
+.titlePort h2{
+  color:#9D82BF;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+.titlePortRight h2 {
+  margin-top: 10px;
+  font-size: 2rem;
+  padding: 3px;
+  color:#DDE6ED ;
+}
+
+.titlePort h2{
+  color:#526D82;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.titlePort p{
+  color:#27374D;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.name{
+  text-align: center;
+  padding-top: 20px;
+}
+p{
+  margin-bottom: 15px;
+}
+#root {
+  width: 100%;
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+   text-align: center;
+ */
+
+}
+.imageProfile{
+  text-align: center;
+  padding: 10px;
+  height: 210px;
+  margin: 0px auto;
+}
+.imageProfile img{
+  width: 220px;
+  height: 240px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid #526D82 ;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.table{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.tables{
+  text-align: center;
+}
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
